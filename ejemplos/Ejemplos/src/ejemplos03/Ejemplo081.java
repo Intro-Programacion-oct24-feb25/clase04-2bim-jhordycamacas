@@ -29,14 +29,13 @@ public class Ejemplo081 {
         System.out.printf("Ingrese segun desee:" + "\n(1) Tabla-Sumar"
                 + "\n(2) Tabla-Multiplicar\n");
         indice = entrada.nextInt();
-        if (indice == 1) {
-            mensajeSuma = obtenerTablaSumar(limite, tabla);
-            System.out.printf("%s\n", mensajeSuma);
-        } else {
-            if (indice == 2) {
+        switch (indice) {
+            case (1):
+                mensajeSuma = obtenerTablaSumar(limite, tabla);
+                System.out.printf("%s\n", mensajeSuma);
+            case (2):
                 mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
                 System.out.printf("%s\n", mensajeSumaDos);
-            }
         }
 
     }
