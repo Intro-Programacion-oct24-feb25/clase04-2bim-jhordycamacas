@@ -16,8 +16,8 @@ public class Ejemplo081 {
     public static void main(String[] args) {
         // 
         Scanner entrada = new Scanner(System.in);
-        String mensajeSuma;
-        String mensajeSumaDos;
+        String mensaje;
+        
         int tabla;
         int limite;
         int indice;
@@ -31,12 +31,12 @@ public class Ejemplo081 {
         indice = entrada.nextInt();
         switch (indice) {
             case (1):
-                mensajeSuma = obtenerTablaSumar(limite, tabla);
-                System.out.printf("%s\n", mensajeSuma);
+                mensaje = obtenerTablaSumar(limite, tabla);
+                System.out.printf("%s\n", mensaje);
                 break;
             case (2):
-                mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
-                System.out.printf("%s\n", mensajeSumaDos);
+                mensaje = obtenerTablaMultiplicar(limite, tabla);
+                System.out.printf("%s\n", mensaje);
                 break;
         }
 
