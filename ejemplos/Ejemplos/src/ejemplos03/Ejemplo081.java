@@ -26,8 +26,8 @@ public class Ejemplo081 {
         tabla = entrada.nextInt();
         System.out.println("Ingrese el limite de la tabla");
         limite = entrada.nextInt();
-        System.out.println("Ingrese segun desee: (1) Tabla-Sumar; (2) Tabla-"
-                + "Multiplicar");
+        System.out.printf("Ingrese segun desee:" + "\n(1) Tabla-Sumar"
+                + "\n(2) Tabla-Multiplicar\n");
         indice = entrada.nextInt();
         if (indice == 1) {
             mensajeSuma = obtenerTablaSumar(limite, tabla);
