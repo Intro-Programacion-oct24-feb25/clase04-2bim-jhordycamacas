@@ -10,7 +10,17 @@ package ejemplos02;
  * @author reroes
  */
 public class Ejemplo041 {
-
+    /*
+     En este codigo primero se declara dentro del main 3 arreglos de dimension 3x3, los 2
+    primeros se les da valores, luego se usa un doble for para asignarle valores
+    al tercer arreglo, el cual sera la multiplicacion de los dos primeros, 
+    esto se hace atraves de una funcion, que va multiplicando posicion por 
+    posicion, al terminar con esto llamamos a un metodo-procedimiento, que nos 
+    permite imprimir de forma caracteristica, cada uno de los 3 arreglos,
+    lo hacemos llamando a este metodo tres veces en donde cada q vez que se 
+    lo llama se le da respectivamente el arreglo que corresponde(el primer 
+    arreglo, luego el segundo y al finalizar el tercer arreglo)
+    */
     public static void main(String[] args) {
         // 
         
