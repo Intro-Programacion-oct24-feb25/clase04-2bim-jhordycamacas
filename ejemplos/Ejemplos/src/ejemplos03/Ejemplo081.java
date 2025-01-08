@@ -33,9 +33,11 @@ public class Ejemplo081 {
             case (1):
                 mensajeSuma = obtenerTablaSumar(limite, tabla);
                 System.out.printf("%s\n", mensajeSuma);
+                break;
             case (2):
                 mensajeSumaDos = obtenerTablaMultiplicar(limite, tabla);
                 System.out.printf("%s\n", mensajeSumaDos);
+                break;
         }
 
     }
