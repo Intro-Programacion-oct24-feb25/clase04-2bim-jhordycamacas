@@ -39,7 +39,8 @@ public class Ejemplo09 {
         cadena = String.format("%s%d\n", cadena, suma);
         return cadena;   
     }
-    public static String obtenerSuma(int operandor1, int operandor2, int operandor3){
+    public static String obtenerSuma(int operandor1, int operandor2,
+            int operandor3){
         int suma;
         String cadena = "";
         suma = operandor1 + operandor2 + operandor3;
